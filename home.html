@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>filmebis saiti</title>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+<body>
+    <div class="cursor rounded"></div>
+
+    <script>
+    const cursorRounded = document.querySelector('.rounded');
+        const cursorPointed = document.querySelector('.pointed');
+        
+        
+        const moveCursor = (e)=> {
+          const mouseY = e.clientY;
+          const mouseX = e.clientX;
+           
+          cursorRounded.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
+          
+          cursorPointed.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
+         
+        }
+        
+        window.addEventListener('mousemove', moveCursor)
+    </script>
+
+<body>
+  <div class="conteiner">
+      <h1 class ="second">popular marvel movies</h1>
+      <div class="previous">
+          <button id="left">
+              <img class ="left" src="fotoebi/left.svg" alt="left" onclick="plusSlides(-1)">
+          </button>
+
+      </div>
+
+      <div class="content">
+          <img class="image" src="fotoebi/1.png" alt="iron men 1" onclick="currentSlide(1)"> 
+          <h1>iron men 1</h1>
+          <h2>გამტაცებლებისგან იმპროვიზირებული ჯავშანის საშუალებით თავის დაღწევის შემდეგ, უმდიდრესი გამომგონებელი და იარაღის შემქმნელი, თავის გამოგონებას კრიმინალთან ბრძოლის სამსახურში იყენებს.</h2>
+          <a href = "https://www.adjaranet.com/movies/188/Iron-Man?lang=GEO&quality=HD"><h3>click here to watch full movie</h3></a>
+      </div>
+
+      <div class="content">
+          <img class="image" src="fotoebi/2.png" alt="iron men 2" onclick="currentSlide(2)">
+          <h1>iron men 2</h1>
+          <h2>ახლა, როდესაც მისი სუპერ ძალის საიდუმლო უკვე ყველასთვის ცნობილია, ტონი სტარკის ცხოვრება ისეთი დაძაბულია როგორც არასდროს. ყველას აინტერესებს რკინის კაცის ტექნოლოგია, ძალაუფლებისა და სარგებელის მოსაპოვებლად. მაგრამ ივან ვანკოსთვის ეს შურისძიებაა! ტონიმ კიდევ ერხელ უნდა ჩაიცვას სუპერ გმირის კოსტიუმი და დაუპირისპირდეს სახიფათო მტერს, ოღონდ ამჯერად უკვე რამოდენიმე მოკავშირესთან ერთად.</h2>
+          <a href = "https://www.adjaranet.com/movies/505/Iron-Man-2?lang=GEO&quality=HD"><h3>click here to watch full movie</h3></a>
+      </div>  
+
+      <div class="content">
+          <img class="image" src="fotoebi/3.png" alt="iron men 3" onclick="currentSlide(2)">
+          <h1>iron men 3</h1>
+          <h2>როდესაც სტარკის/რკინის კაცის სამყარო მის თვალწინ ინგრევა უცნობი ბოროტმოქმედის წყალობით, ერთადერთი მისი სურვილია მოძებნოს და გაანადგუროს მტერი.</h2>
+          <a href = "https://www.adjaranet.com/movies/4791/Iron-Man-Three?lang=GEO&quality=HD"><h3>click here to watch full movie</h3></a>
+      </div>    
+      
+      <div class="content">
+          <img class="image" src="fotoebi/4.png" alt="hulk" onclick="currentSlide(2)">
+          <h1>THE INCREDIBLE HULK</h1>
+          <h2>მეცნიერი ბრიუს ბანერის შესახებ არავინ არაფერი იცის, ის მისი უკონტროლო მძვინვარე ძალის "ჰალკისთვის"ვაქცინას ეძებს. როდესაც სამხედრო პირები ცდილობენ გამოიყენონ მისი ძალა და დააბრუნონ ცივილიზაციაში, ბრიუს ბანერი მის ყველაზე ძლიერ მტერს გადააწყდება - საშინელ აგრესიულ ცხოველს, რომელიც თვით ჰალკის ძალებს ედრება.</h2>
+          <a href = "https://www.adjaranet.com/movies/370/The-Incredible-Hulk?lang=GEO&quality=HD"><h3>click here to watch full movie</h3></a>
+      </div> 
+      
+      <div class="content">
+          <img class="image" src="fotoebi/5.png" alt="" onclick="currentSlide(2)">
+          <h1>CAPTAIN AMERICA: THE FIRST AVENGER</h1>
+          <h2>მეორე მსოფლიო ომის მოსაგებად ამერიკელები ბრუკლინელ, ფიზიკურად სუსტ სტივ როჯერსს სუპერ-ჯარისკაც "კაპიტან ამერიკად" გადააქცევენ. როჯერმა ადოლფ ჰიტლერის იარაღების მმართველი, სასტიკი "წითელი ჩონჩხი" უნდა შეაჩეროს. იგი ორგანიზაციის ლიდერია, რომელიც უდიდეს საიდუმლო ძალას ფლობს, რისი მეშვეობითაც მსოფლიოს დაპყრობაა შესაძლებელი.</h2>
+          <a href = ""><h3>click here to watch full movie</h3></a>
+      </div>
+
+      <div class="content">
+          <img class="image" src="fotoebi/6.png" alt="" onclick="currentSlide(2)">
+          <h1>THOR</h1>
+          <h2>მამამისის ნების საწინააღმდეგოდ,ძლევამოსილი მებრძოლი - თორი, უძველეს ომს ხელახლა გააჩაღებს. სასჯელის სახით მას დედამიწაზე გააგზავნიან, სადაც ადამიანებთან ერთად უნდა იცხოვროს.აქ ის ხვდება,რას ნიშნავს იყო ნამდვილი გმირი,როდესაც მსოფლიოს ყველაზე საშიში ბოროტმოქმედი, დედამიწის გასანადგურებლად აზგარდის ბნელ ძალებს გამოაგზავნის.</h2>
+          <a href = "https://www.adjaranet.com/movies/1571/Thor?lang=GEO&quality=HD"><h3>click here to watch full movie</h3></a>
+      </div>
+
+      <div class="content">
+          <img class="image" src="fotoebi/7.png" alt="" onclick="currentSlide(2)">
+          <h1>THE AVENGERS</h1>
+          <h2>როდესაც დედამიწას მოულოდნელი საფრთხე დაემუქრება, გლობალური უსაფრთხოების და დაცვის სამსახურის, S.H.I.E.L.D, დირექტორი ნიკ ფური გადაწყვეტს სუპერგმირების გუნდი შეკრიბოს, რათა თავიდან აიცილოს მსოფლიო მასშტაბის კატასტროფა.</h2>
+          <a href = "https://www.adjaranet.com/movies/2766/The-Avengers?lang=GEO&quality=HD"><h3>click here to watch full movie</h3></a>
+      </div>
+
+      <div class="content">
+          <img class="image" src="fotoebi/8.png" alt="" onclick="currentSlide(2)">
+          <h1>THOR: THE DARK WORLD</h1>
+          <h2>თორმა შეძლო აღედგინა დამცავი ბარიერი, მაგრამ ძველი რასა, ბოროტი ელფების, რომლებსაც მალეკიტი ხელმძღვანელობს ცდილობს მთელი სამყარო ხელში ჩაიგდოს.</h2>
+          <a href = "https://www.adjaranet.com/movies/6192/Thor-The-Dark-World?lang=GEO&quality=HD"><h3>click here to watch full movie</h3></a>
+      </div>
+
+      <div class="content">
+          <img class="image" src="fotoebi/9.png" alt="" onclick="currentSlide(2)">
+          <h1>CAPTAIN AMERICA: THE WINTER SOLDIER</h1>
+          <h2>ნიუ-ორკის ამბების შემდეგ სტივ როჯერსი ცდილობს შეეჩვიოს ახალ სამყაროს და წყნარად ცხოვრობს ვაშინგტონში. მაგრამ როცა კორპორაცია S.H.I.L.D-ზე განახორციელდება თავდასხმა, როჯერსი გაიხლართება ინტრიგების ქსელში, რომელიც მთელ სამყაროს განადგურებით ემუქრება. როცა ამბები ოდნავ დაწყნარდება, კაპიტანი ამერიკა, შავი ქვრივი და ქორი შეებრძოლებიან მორიგ მოულოდნელ მტერს - ზამთრის ჯარისკაცს.</h2>
+          <a href = "https://www.adjaranet.com/movies/6379/Captain-America-The-Winter-Soldier?lang=GEO&quality=HD"><h3>click here to watch full movie</h3></a>
+      </div>
+
+      <div class="content">
+          <img class="image" src="fotoebi/10.png" alt="" onclick="currentSlide(2)">
+          <h1>GUARDIANS OF THE GALAXY</h1>
+          <h2>ამერიკელი პილოტი ჩაითრიეს გალაქტიკათშორისო კონფლიქტში. იგი გაიქცა ფუტურისტ პატიმართა ჯგუფთან ერთად, რომლებსაც ისეთი რაღაც აქვთ, რაზეც ყველა ნადირობს...</h2>
+          <a href = "https://www.adjaranet.com/movies/7571/Guardians-of-the-Galaxy?lang=GEO&quality=HD"><h3>click here to watch full movie</h3></a>
+      </div>
+
+      <div class="content">
+          <img class="image" src="fotoebi/11.png" alt="" onclick="currentSlide(2)">
+          <h1>AVENGERS: AGE OF ULTRON</h1>
+          <h2>სიკველის სიუჟეტის მოვლენები დატრიალდება ახალი საერთო პრობლემის გარშემო - ალტრონის სახით - ხელოვნური ინტელექტი, რომელიც იყო შექმნილი დედამიწის მოსახლეობის დასაცავად. მიუხედავად თავისი დანიშნულებისა, კაცობრიობის ყველაზე მთავარი საფრთხე ის აღმოჩნდება. თუ “შურისმაძიებლების” გუნდი ვერ მოახერხებს მის შეჩერებას, მაშინ დედამიწაზე დადგება ახალი ერა, სადაც არ იქნება არცერთი ადამიანი</h2>
+          <a href = "https://www.adjaranet.com/movies/14220/Avengers-Age-of-Ultron?lang=GEO&quality=HD"><h3>click here to watch full movie</h3></a>
+      </div>
+
+      <div class="content">
+          <img class="image" src="fotoebi/12.png" alt="" onclick="currentSlide(2)">
+          <h1>Ant-Man</h1>
+          <h2>Ant-Man is a 2015 American superhero film based on the Marvel Comics characters of the same name: Scott Lang and Hank Pym. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the 12th film in the Marvel Cinematic Universe (MCU).</h2>
+          <a href = "https://youtu.be/pWdKf3MneyI"><h3>click here to watch trailer</h3></a>
+      </div>
+
+      <div class="content">
+          <img class="image" src="fotoebi/13.png" alt="" onclick="currentSlide(2)">
+          <h1>DOCTOR STRANGE</h1>
+          <h2>მას შემდეგ რაც მისი კარიერა განადგურდა, ბრწყინვალე მაგრამ ქედმაღალი ექიმი ახალ გამოწვევას იღებს ცხოვრებაში, როდესაც ჯადოქარი მას მფარველობაში აიყვანს და წვრთნის, რათა სამყარო დაიცვას ბოროტებისაგან.</h2>
+          <a href = "https://www.adjaranet.com/movies/17722/Doctor-Strange?lang=GEO&quality=HD"><h3>click here to watch full movie</h3></a>
+      </div>
+
+      <div class="content">
+          <img class="image" src="fotoebi/14.png" alt="" onclick="currentSlide(2)">
+          <h1>CAPTAIN AMERICA: CIVIL WAR</h1>
+          <h2>შურისმაძიებლები კაპიტან ამერიკის ხელმძღვანელობით საერთაშორისო მაშტაბის დამანგრეველი ინციდენტის მონაწილეები გახდებიან. ამის გამო მთავრობა დაფიქრდება იმაზე, რომ დაარეგულიროს და გააკონტროლოს ყველა იმ ადამიანების ქმედებები, რომლებსაც გააჩნიათ ზებუნებრივი თვისებები, მათ შეიმუშავეს "სუპერგმირების რეგისტრაციის აქტი"...</h2>
+          <a href = "https://www.adjaranet.com/movies/15810/Captain-America-Civil-War?lang=GEO&quality=HD"><h3>click here to watch full movie</h3></a>
+      </div>
+
+      <div class="content">
+          <img class="image" src="fotoebi/15.png" alt="" onclick="currentSlide(2)">
+          <h1>SPIDER-MAN: FAR FROM HOME</h1>
+          <h2>პიტერ პარკერი და მისი მეგობრები ძაფხულში ევროპაში მიდიან სამოგზაუროდ. თუმცა, დასვენებას ნაკლებად შეძლებენ - პიტერს მოუწეს ნიკ ფიურის დაეხმაროს, რათა ფარდა ახადოს რაღაც არსებების საიდუმლოებას, რომლებიც სტიქიურ უბედურებებსა და ნგრევას იწვევენ მთელი კონტინენტის მასშტაბით.</h2>
+          <a href = "https://www.adjaranet.com/movies/25522/Spider-Man-Far-from-Home?lang=GEO&quality=HD"><h3>click here to watch full movie</h3></a>
+      </div>
+
+      <div class="content">
+          <img class="image" src="fotoebi/16.png" alt="" onclick="currentSlide(2)">
+          <h1>GUARDIANS OF THE GALAXY VOL. 2</h1>
+          <h2>ყველა ადგილზეა: პიტერ ქვილი, სიტყვაძუნწი დრაკსი, მწვანეკანიანი ჰამორა, ცოცხალი ხე გრუტი და მოლაპარაკე ენოტი. გმირები ჩვეულ რიტმს არ ღალატობენ : ეხვევიან გაუგებარ სიტუაციებში და საზოგადოებისათვის ზიანის მიყენების გარეშე პოულობენ გამოსავალს. ამჯერად მათ ყველაზე დიდი საიდუმლოს გამოძიება მოუწევთ. მათ უნდა გაიგონ ვინ არის პიტერ ქვილის მამა.</h2>
+          <a href = "https://www.adjaranet.com/movies/20173/Guardians-of-the-Galaxy-Vol-2?lang=GEO&quality=HD"><h3>click here to watch full movie</h3></a>
+      </div>
+
+      <div class="content">
+          <img class="image" src="fotoebi/17.png" alt="" onclick="currentSlide(2)">
+          <h1>BLACK PANTHER</h1>
+          <h2>ერთი შეხედვით იფიქრებთ, რომ ვაკანდა აფრიკის უბრალო ველური ტერიტორიაა, მაგრამ ეს ასე არაა. აქ უდაბურ მიწებში ინახება მეტალი, რომელსაც შეუძლია წარმოშოს მშთანთქმელი ვიბრაცია. მის მოსაპოვებლად ბევრი იბრძვის მაგრამ ყველა კვდება. მას შავი პანტერა, ტ'ჩალა - ვაკანდას ძველი სამეფოს ახალი მმართველი იცავს.</h2>
+          <a href = "https://www.adjaranet.com/movies/22926/Black-Panther?lang=GEO&quality=HD"><h3>click here to watch full movie</h3></a>
+      </div>
+
+      <div class="content">
+          <img class="image" src="fotoebi/18.png" alt="" onclick="currentSlide(2)">
+          <h1>AVENGERS: INFINITY WAR</h1>
+          <h2>შურისმაძიებლები კვლავ ერთიანდებიან, რათა სამყარო ძლევამოსილი ტიტანი თანოსისგან დაიცვან. შეშლილი თანოსი არაფერზე იხევს, მისი მთავარი მიზანია – ხელში ჩაიგდოს უსასრულობის ექვსივე ქვა, რომელთა გაერთიანებით უძლიერესი არტეფაქტის – უსასრულობის ხელთათმანის, მართვას შეძლებს და ყველაზე ძლიერი არსება გახდება. სამყაროს საშინელი საფრთხე ემუქრება და ახლა მხოლოდ შურისმაძიებლებს შეუძლიათ მისი შეჩერება…</h2>
+          <a href = "https://www.adjaranet.com/movies/22205/Avengers-Infinity-War?lang=GEO&quality=HD"><h3>click here to watch full movie</h3></a>
+      </div>
+
+      <div class="content">
+          <img class="image" src="fotoebi/19.png" alt="" onclick="currentSlide(2)">
+          <h1>BLACK WIDOW</h1>
+          <h2>In Marvel Studios' action-packed spy thriller "Black Widow," Natasha Romanoff aka Black Widow confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger. —topmeasure</h2>
+          <a href = "https://www.adjaranet.com/movies/878413820/Black-Widow?lang=GEO&quality=HD"><h3>click here to watch full movie</h3></a>
+      </div>
+
+      <div class="content">
+          <img class="image" src="fotoebi/20.png" alt="" onclick="currentSlide(2)">
+          <h1>SHANG-CHI AND THE LEGEND OF THE TEN RINGS</h1>
+          <h2>შანგ-ჩი – კუნგ-ფუს ოსტატია, რომელიც იზოლაციაში გაიზარდა და მისი მამის მანდარინის ხელმძღვანელობით მრავალი ვარჯიშის წყალობით ბავშვობიდანვე სრულყოფილად აითვისა საბრძოლო ხელოვნება. როდესაც მას საიდუმლოებით მოცული ტერორისტული ორგანიზაციის “ათი ბეჭდის” ქსელში ჩიაითრევენ, მთავარი გმირი იძულებულია საკუთარი წარსულის მოჩვენებეს და მამას დაუპირისპირდეს, რომელმაც მთელი მსოფლიოს ხელში ჩაგდება ჩაიფიქრა.</h2>
+          <a href = "https://www.adjaranet.com/movies/878521814/Shang-Chi-and-the-Legend-of-the-Ten-Rings?lang=GEO&quality=HD"><h3>click here to watch full movie</h3></a>
+      </div>
+      <div class="next">
+          <button id="right">
+              <img class ="right"src="fotoebi/right.svg" alt="right" onclick="plusSlides(+1)">
+          </button>
+      </div>       
+  </div>
+      <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+          function plusSlides(n) {
+              showSlides(slideIndex += n);}
+
+          function currentSlide(n) {
+              showSlides(slideIndex = n);}
+
+          function showSlides(n) {
+              var slides = document.getElementsByClassName("content"); 
+              var arrows = document.getElementsByClassName("image");
+              if (n > slides.length) { 
+                  slideIndex = 1;
+                  }
+              if (n < 1) { 
+                  slideIndex = slides.length;
+                  }
+
+              for (var i = 0; i < slides.length; i++) { 
+                  slides[i].style.display = "none";
+              }
+              
+              slides[slideIndex-1].style.display = "block"; 
+          }
+
+      </script>
+  
+
+</body>
+</html>
